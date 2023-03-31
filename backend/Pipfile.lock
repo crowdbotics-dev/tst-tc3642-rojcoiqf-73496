@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a8a83708287569e5db58b82f68b2196e7acc2a68ba114cf838702c5a0c565a5c"
+            "sha256": "9855f2b10a8f663eba600d9de10469d2ebf61ca09e76077602863dc3a7874ce0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -63,6 +63,10 @@
         "cb-django-push-notifications": {
             "editable": true,
             "path": "./modules/django_push_notifications"
+        },
+        "cb-django-two-factor-authentication": {
+            "editable": true,
+            "path": "./modules/django_two_factor_authentication"
         },
         "certifi": {
             "hashes": [
@@ -319,6 +323,14 @@
             ],
             "index": "pypi",
             "version": "==2.7.1"
+        },
+        "django-phonenumber-field": {
+            "hashes": [
+                "sha256:897b902a1654b0eb21f6268498a3359e2c4eb90af9585cb8693af186ede8c5bb",
+                "sha256:b1ff950f90a8911ff323ccf77c8f6fe4299a9f671fa61c8734a6994359f07446"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==6.1.0"
         },
         "django-rest-auth": {
             "hashes": [
@@ -673,6 +685,13 @@
             "index": "pypi",
             "version": "==23.0"
         },
+        "phonenumbers": {
+            "hashes": [
+                "sha256:94e30f59b2be6c4310a90f3d5da53d49900bdb440484506f3333c694ebb0cdab",
+                "sha256:e3af21c1e33a3dd063cddba3cad653abb8d23c37c62cedee597a3f3ea0f5365c"
+            ],
+            "version": "==8.12.45"
+        },
         "pillow": {
             "hashes": [
                 "sha256:0030fdbd926fb85844b8b92e2f9449ba89607231d3dd597a21ae72dc7fe26927",
@@ -874,6 +893,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.6.0"
         },
+        "pyotp": {
+            "hashes": [
+                "sha256:889d037fdde6accad28531fc62a790f089e5dfd5b638773e9ee004cce074a2e5",
+                "sha256:c2f5e17d9da92d8ec1f7de6331ab08116b9115adbabcba6e208d46fc49a98c5a"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.8.0"
+        },
         "pyrsistent": {
             "hashes": [
                 "sha256:016ad1afadf318eb7911baa24b049909f7f3bb2c5b1ed7b6a8f21db21ea3faa8",
@@ -922,6 +949,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.2"
+        },
+        "python-http-client": {
+            "hashes": [
+                "sha256:ad371d2bbedc6ea15c26179c6222a78bc9308d272435ddf1d5c84f068f249a36",
+                "sha256:bf841ee45262747e00dec7ee9971dfb8c7d83083f5713596488d67739170cea0"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==3.3.7"
         },
         "python3-openid": {
             "hashes": [
@@ -1015,6 +1050,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==0.6.0"
         },
+        "sendgrid": {
+            "hashes": [
+                "sha256:522b30fc98306496208c5d8bdd5642cd6a2fd65cad487475f57f9098ce880604",
+                "sha256:9b15050c6f8826ee576f76a786efb15d956639f485478cbddd79ed69e8350ab8"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==6.10.0"
+        },
         "setuptools": {
             "hashes": [
                 "sha256:257de92a9d50a60b8e22abfcbb771571fde0dbf3ec234463212027a4eeecbe9a",
@@ -1047,6 +1090,12 @@
             "markers": "python_version >= '3.5'",
             "version": "==0.4.3"
         },
+        "starkbank-ecdsa": {
+            "hashes": [
+                "sha256:9399c3371b899d4a235b68a1ed7919d202fbf024bd2c863ae8ebdad343c2a63a"
+            ],
+            "version": "==2.2.0"
+        },
         "tablib": {
             "extras": [
                 "html",
@@ -1069,6 +1118,14 @@
             ],
             "markers": "python_version < '3.11'",
             "version": "==2.0.1"
+        },
+        "twilio": {
+            "hashes": [
+                "sha256:312e25b0a1ca782974a359d95123f270574e6e4b195b0e2095a156219ad7b7ec",
+                "sha256:f43de32cdc27f8853bb02ab0b8703a487beffbb9dcc8118398b6757e1376e6ed"
+            ],
+            "markers": "python_full_version >= '3.6.0'",
+            "version": "==7.17.0"
         },
         "uritemplate": {
             "hashes": [
