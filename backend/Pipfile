@@ -34,7 +34,6 @@ pipenv = "*"
 django-import-export = "*"
 drf-spectacular = "~=0.25.1"
 cb-django-2fa = {editable = true, path = "./modules/django_2fa"}
-cb-django-articles = {editable = true, path = "./modules/django_articles"}
 cb-django-push-notifications = {editable = true, path = "./modules/django_push_notifications"}
 cb-django-two-factor-authentication = {editable = true, path = "./modules/django_two_factor_authentication"}
 cb-django-drive = {editable = true, path = "./modules/django_drive"}
