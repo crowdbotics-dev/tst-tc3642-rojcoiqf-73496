@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled2 = () => {
+const Untitled42 = () => {
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
@@ -14,7 +14,8 @@ const Untitled2 = () => {
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: '100%',
+    backgroundColor: "#8e3737"
   }
 });
-export default Untitled2;
+export default Untitled42;

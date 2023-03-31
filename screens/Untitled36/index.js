@@ -1,27 +1,20 @@
 import React from "react";
-import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled1 = () => {
+const Untitled36 = () => {
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.hcVYDrrH}></View></ScrollView>
+    }}></ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
-  },
-  hcVYDrrH: {
-    height: 60,
-    width: 140,
-    backgroundColor: "#E4E4E4",
-    borderRadius: 0,
-    color: "#777777"
   }
 });
-export default Untitled1;
+export default Untitled36;
