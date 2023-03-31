@@ -63,6 +63,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [django-two-factor-authentication](backend/modules)
 - [django-drive](backend/modules)
 - [django-slack](backend/modules)
+- [react-native-appointment](modules/appointment)
 
 # Getting started: Frontend
 
